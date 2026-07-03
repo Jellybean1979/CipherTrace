@@ -481,7 +481,7 @@
     document.getElementById('outLocation').textContent = location;
 
     const c = randCoord();
-    document.getElementById('outCoords').textContent = `lat ${c.lat}, lon ${c.lon}`;
+    
     document.getElementById('outHash').textContent =
       `sha256$${randHex(8)}...${randHex(8)}:${randHex(24)}`;
 
